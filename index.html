@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <ul class="matrix three-cols lighting-list">
+      <li id="main" class="exterior">
+        <a href="#" class="on">Main</a>
+      </li>
+      <li id="sideyard" class="exterior">
+        <a href="#">Sideyard</a>
+      </li>
+      <li id="backyard" class="exterior">
+        <a href="#">Backyard</a>
+      </li>
+      <li id="guest-bath" class="interior bathroom">
+        <a href="#">Guest Bath</a>
+      </li>
+      <li id="master-bath" class="interior bathroom">
+        <a href="#">Master Bath</a>
+      </li>
+      <li id="master-bedroom" class="interior">
+        <a href="#">Master Bedroom</a>
+      </li>
+    </ul>
+
+    <div class="actions">
+      <p>
+        <input type="button" value="Turn All On" id="all-on">
+        <input type="button" value="Turn All Off" id="all-off">
+      </p>
+      <p>
+        <input type="button" value="Turn All Exteriors On" id="all-exteriors-on">
+        <input type="button" value="Turn All Exteriors Off" id="all-exteriors-off">
+      </p>
+      <p>
+        <input type="button" value="Turn All Interiors On" id="all-interiors-on">
+        <input type="button" value="Turn All Interiors Off" id="all-interiors-off">
+      </p>
+      <p>
+        <input type="button" value="Turn All Bathroom Lights On" id="all-bathrooms-on">
+        <input type="button" value="Turn All Bathroom Lights Off" id="all-bathrooms-off">
+      </p>
+    </div>
+
+    <ul class="summary">
+      <li id="lights-on-total">
+        <strong>0</strong> lights are on
+      </li>
+      <li id="lights-off-total">
+        <strong>0</strong> lights are off
+      </li>
+    </ul>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
